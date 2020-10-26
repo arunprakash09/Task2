@@ -1,0 +1,22 @@
+.heading{
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+}.c-container{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+sup{
+    color:#fb5678;
+}
+.flex-col-gap{
+    gap: 25px;
+    margin-top: 10px;
+}
+.col-padding{
+    margin-right:20%;
+}
+.other-margin{
+    margin-left: 20%;
+}
