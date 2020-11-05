@@ -1,75 +1,110 @@
 <html>
-    <head>
-        <title>Task2</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/util.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="heading">Personal Details</div>
-            <div class="c-container">
-                <div class="col-padding">
-                    <label >First Name <sup >*</sup></label><br>
-                    <input class="type-box"type="text" placeholder="First Name"required>
-                </div>
-                <div >
-                    <label >Last Name <sup >*</sup></label><br>
-                    <input class="type-box" type="text" placeholder="Last Name" required>
-                </div>
-            </div>
-            <div class="c-container">
-                <div class="col-padding">
-                    <label  >Email <sup >*</sup></label><br>
-                    <input class="type-box" type="email" placeholder="First Name"required>
-                </div>
-                <div >
-                    <label >Mobile Number <sup >*</sup></label><br>
-                    <input class="type-box" type="number" placeholder="Last Name" required>
-                </div>
-            </div>
-            </div>
+  <head>
+    <title>Task2</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/util.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">Personal Details</div>
+      <div class="row personal-width child-padding">
+        <div class="col">
+          <label>First Name <sup>*</sup></label>
+          <input class="type-box" type="text" placeholder="Enter your name" />
         </div>
-        <div class="container">
-            <div class="heading">Academic Details</div>
-            <div class="c-container">
-                <div class="flex-col flex-col-gap">
-                    <label >College Name <sup >*</sup></label>
-                    <label >Department Name <sup >*</sup></label>
-                    <label >Roll Number </label>
-                    <label >Graduating Year</label>
-                </div>
-                <div class="flex-col">
-                    <input class="type-box" type="text" placeholder="College Name" required>
-                    <input class="type-box" type="text" placeholder="Department Name" required>
-                    <input class="type-box" type="text" placeholder="Roll Number" required>
-                    <input class="type-box" type="text" placeholder="Graduating year" required>
-                </div>
-            </div>
+        <div class="col">
+          <label>Last Name <sup>*</sup></label>
+          <input class="type-box" type="text" placeholder="Enter your name" />
         </div>
-        <div class="container">
-            <div class="heading">Personal Details</div>
-            <div class="c-container">
-                <div class="flex-col flex-col-gap">
-                    <label >Area of Intrest <sup >*</sup></label>
-                    <label >Graduating Year</label>
-                </div>
-                <div class="flex-col">
-                    <input class="type-box" type="text" placeholder="Area of Intrest" required>
-                    <input class="type-box" type="text" placeholder="Graduating Year" required>
-                </div>
-                <div class="flex-col flex-col-gap other-margin">
-                    <label >Hobby </label>
-                    <label >Graduating Year</label>
-                </div>
-                <div class="flex-col">
-                    <input class="type-box" type="text" placeholder="Hobby" required>
-                    <input class="type-box" type="text" placeholder="Graduating Year" required>
-                </div>
-            </div>
-        </div>     
-            <div class="btn-flex c-container">
-                <div class="btn-align"><button type="button">Edit</button></div>
-            <div class="btn-align"> <button type="submit">Save</button></div> 
-            </div>
-    </body>
+      </div>
+      <div class="row personal-width child-padding">
+        <div class="col">
+          <label>Email<sup>*</sup></label>
+          <input class="type-box" type="email" placeholder="Enter your email" />
+        </div>
+        <div class="col">
+          <label>Mobile Number <sup>*</sup></label>
+          <input
+            class="type-box"
+            type="number"
+            placeholder="Enter your number"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="heading">Academic Details</div>
+      <div class="row academic-width child-padding academic">
+        <label>College Name<sup>*</sup></label>
+        <input
+          class="type-box"
+          type="text"
+          placeholder="Enter your college Name"
+        />
+      </div>
+      <div class="row academic-width child-padding academic">
+        <label>Department Name<sup>*</sup></label>
+        <input
+          class="type-box"
+          type="text"
+          placeholder="Enter your Department Name"
+        />
+      </div>
+      <div class="row academic-width child-padding academic">
+        <label>Roll Number</label>
+        <input
+          class="type-box"
+          type="email"
+          placeholder="Enter your Roll Number"
+        />
+      </div>
+      <div class="row academic-width child-padding academic">
+        <label>Graduating Year</label>
+        <input
+          class="type-box"
+          type="email"
+          placeholder="Enter your Graduating Year"
+        />
+      </div>
+    </div>
+    <div class="container">
+      <div class="heading">Other Details</div>
+      <div class="row">
+        <div class="row academic-width child-padding academic">
+          <label>Area of Intrest<sup>*</sup></label>
+          <input
+            class="type-box"
+            type="email"
+            placeholder="Enter your Area of Intres"
+          />
+        </div>
+        <div class="row academic-width child-padding academic">
+          <label>Hobby</label>
+          <input class="type-box" type="email" placeholder="Enter your Hobby" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="row academic-width child-padding academic">
+          <label>Graduating Year</label>
+          <input
+            class="type-box"
+            type="email"
+            placeholder="Enter your Graduating Year"
+          />
+        </div>
+        <div class="row academic-width child-padding academic">
+          <label>Graduating Year</label>
+          <input
+            class="type-box"
+            type="email"
+            placeholder="Enter your Graduating Year"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="btn-flex">
+      <button>Edit</button>
+      <button>Save</button>
+    </div>
+  </body>
 </html>
