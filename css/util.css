@@ -1,22 +1,28 @@
-.heading{
-    font-family: PlayfairDisplay;
-    font-size: 20px;
-    letter-spacing: 0.6px;
-}.c-container{
-    display: flex;
-    padding: 10px;
-    flex-wrap: wrap;
+.heading {
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  margin-left: 1%;
 }
-sup{
-    color:#fb5678;
+sup {
+  color: #fb5678;
 }
-.flex-col-gap{
-    gap: 25px;
-    margin-top: 10px;
+label {
+  margin-bottom: 2%;
+  font-family: inter;
 }
-.col-padding{
-    margin-right:20%;
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
 }
-.other-margin{
-    margin-left: 20%;
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.academic label {
+  flex: 1;
+}
+.academic input {
+  flex: 2;
 }
